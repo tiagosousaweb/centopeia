@@ -1,0 +1,24 @@
+{
+	"name":"mvc_projeto",
+	"require" : {
+		"php":">=5.3"
+	},
+
+	"minumum-stability":"alpha",
+	"authors" : [
+		{
+		"name":"Lucas Resende de Sousa Amaral",
+		"email":"lucas.res@live.com"
+	}],
+
+	"autoload":{
+		"psr-0":{
+			"lcgo":"vendor",
+			"app":"/"
+		}
+	},
+
+	"config": {
+		"bin-dir":"bin"
+	}
+}
